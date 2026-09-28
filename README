@@ -1,0 +1,31 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Course: ECE 524
+// Professor: Aaron Nanas
+// Student: Steve Ortiz
+// CSUN ID: 107324592
+//////////////////////////////////////////////////////////////////////////////////
+Section I: Review Questions
+1.(a) What is the difference between a compiler and an interpreter?
+  A compiler translates an entire program into an executable, standalone file. This allows it to display all errors found within the file at once, due to it having read through the entire program. 
+  An interpreter on the other hand, translates the file while it executes said file, while not generating a separate file. If the interpreter encounters any issues, it stops at the first one it encounters.
+(b) What is the output of a C program’s main() function by default?
+  By default, the main() funciton returns an integer '0' by default.
+2. What are header files in C and what is the purpose of the #include directive?
+  A header file is a file that contains function declarations, constraints, and type definitions. It's like a library, that is user defined. The actual implemented function is stored in an accompanying .c file.
+  The #include directive is used to tell a compiler to include the contents of another file, like those found in a library or header file, when the program is compiled. 
+3. Explain how to declare and define a function in C. What is the purpose of the return statement in a function? Can a function have more than one return statement?
+  A function must be declared in the following format: "<function_return_type> <function_name>(<arguement_type> <Argument_name>)". It may contain more than one arguments, with each being separated by a comma. A funciton is defined by the code written within the program's brackets, with it returning a value matching what had been inittally declared.
+  The return statement ends the execution of the function, while potentially sending a value bakc to the line of code that initially called the function itself.
+  A function can have more that one return statement, though it must be structured in a manner that allows to execute only one at a time. Like when a function implements an if-else statment, with each branch containing its own return statement.
+4. What is type casting? Provide an example C function that demonstrates explicit type casting from double to int. The function should accept two arguments that are both double and return their sum as an integer.
+5. 
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
